@@ -1,24 +1,3 @@
-python3.9 -m venv lc-template\
-source lc-template/bin/activate
-
-export OPENAI_API_KEY= export REDIS_HOST=[localhost](http://localhost) export REDIS_PORT=6379 export REDIS_USER= export REDIS_PASSWORD=
-
-redis-stack-server\
-lsof -i tcp:6379\
-redis-cli FLUSHDB \
-langchain app new dentsu-rag\
-(installer package rag-redis)
-
-cd dentsu-rag
-
-cd packages/rag-redis\
-python [ingest.py](http://ingest.py)
-
-/Documents/CODE/redis_chat/dentsu-rag\
-langchain serve
-
-<http://127.0.0.1:8000/rag-redis/playground>
-
 # **LangChain RAG Application**
 
 ## **Description**
