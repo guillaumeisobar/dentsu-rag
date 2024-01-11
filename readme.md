@@ -8,6 +8,7 @@ This LangChain RAG (Retrieval Augmented Generation) application is a state-of-th
 
 - **PDF to Text Conversion**: Utilizes `UnstructuredFileLoader` and `ocrmac` for accurate OCR processing of PDF documents.
 - **Redis Vector Database**: Employs Redis for real-time context retrieval and efficient data management.
+- **HuggingFace Text Embeddings**: Employs HuggingFace's sentence transformers to convert text into vector representations, enabling sophisticated text similarity analyses.
 - **Generative AI Responses**: Integrates OpenAI’s `gpt-3.5-turbo-16k` LLM for advanced text generation.
 - **AI-Powered Analysis**: Combines context from source documents with AI capabilities for comprehensive analysis.
 
