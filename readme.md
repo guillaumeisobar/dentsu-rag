@@ -1,4 +1,4 @@
-# **LangChain RAG Application**
+# **Dentsu RAG**
 
 ## **Description**
 
