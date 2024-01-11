@@ -2,7 +2,7 @@
 
 ## **Description**
 
-This LangChain RAG (Retrieval Augmented Generation) application is a state-of-the-art AI solution for processing and analyzing text data. It combines the efficiency of Redis as a vector database with the power of OpenAI's GPT models for generating human-like responses. The application is designed to process PDF documents, and provide rich, context-aware responses.
+This LangChain RAG (Retrieval Augmented Generation) application is a state-of-the-art AI solution for processing and analyzing text data. It combines the efficiency of Redis as a vector database and HuggingFace's sentence transformers for text embeddings with OpenAI's GPT models for generating human-like responses. The application is designed to process PDF documents, and provide rich, context-aware responses.
 
 ## **Features**
 
